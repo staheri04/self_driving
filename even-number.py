@@ -6,7 +6,7 @@ for n in nums:
 	if n % 2 == 0:
 		even_numbers.append(n)
 
-with open(evenn_numbers.txt", "w") as f:
+with open("even_numbers.txt", "w") as f:
 	for num in even_numbers:
 		f.write(str(num) + "\n")
 
